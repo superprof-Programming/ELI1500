@@ -10,7 +10,7 @@ int main() {
 
     Product_t fireball;
     strcpy(fireball.name, "Fireball");
-    fireball.price = 79;
+    fireball.price = 97;
 
     // Add products to the menu
     Product_t menu[2];

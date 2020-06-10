@@ -15,7 +15,7 @@ int like(int x, int y, int z){
     if (x == y && y == z)
         return 2;
 
-    if (x == y || x == z)
+    if (x == y || x == z ||  y == z)
         return 1;
 
     return 0;

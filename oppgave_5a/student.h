@@ -7,7 +7,7 @@ typedef struct student
     char etternavn[20];
 } student_t;
 
-void printStudent(student_t* student)
+void printStudent(const student_t* student)
 {
     printf("\n%s %s", student->fornavn, student->etternavn);
 }
@@ -19,9 +19,8 @@ void studentSearch(const student_t *myClass)
     scanf("%s", name);
 
     for (int i = 0; i < 3; ++i) {
-        if (strcmp(name, myClass[i].fornavn) == 0 || strcmp(name, myClass[i].etternavn) == 0) {
+        if (strcmp(name, myClass[i].fornavn) == 0 || strcmp(name, myClass[i].etternavn) == 0)
             printStudent(&myClass[i]);
-        }
     }
 }
 

@@ -40,7 +40,7 @@ int getOder(Product_t *product)
         // random number from 0 to 100
         const int RANDOM_MENU = rand() % 100;
 
-        // product on index 1 is fireball
+        // Shop owner wish to 60% of the time, at the product is Fireball (product  at index 0)
         if (RANDOM_MENU < 60) return 1;
     }
 

@@ -10,7 +10,7 @@ int main() {
     printf("Skriv inn antall kvadratmeter: ");
     scanf("%f", &KvadratMeter);
 
-    float antallPakerSomTrengs = ((KvadratMeter * kap)  / 2.952);
+    double antallPakerSomTrengs = ((KvadratMeter * kap)  / 2.952);
 
     float totalPris = (prisPrPakke * antallPakerSomTrengs);
 

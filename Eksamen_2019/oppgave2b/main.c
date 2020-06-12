@@ -7,6 +7,6 @@ int main() {
         Oslo2020[0] += Oslo2020[i];
     }
     printf("Totalt antall smittet i OSLO: %i", Oslo2020[0]);
-    
+
     return 0;
 }

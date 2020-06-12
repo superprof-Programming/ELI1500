@@ -5,12 +5,12 @@ int main() {
 
 
     float kap = 1.10;
-    int prisPrPakke = 734;
+    float prisPrPakke = 734.00;
     float KvadratMeter;
     printf("Skriv inn antall kvadratmeter: ");
     scanf("%f", &KvadratMeter);
 
-    double antallPakerSomTrengs = ((KvadratMeter * kap)  / 2.952);
+    float antallPakerSomTrengs = ((KvadratMeter * kap)  / 2.952);
 
     float totalPris = (prisPrPakke * antallPakerSomTrengs);
 

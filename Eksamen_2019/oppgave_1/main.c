@@ -19,27 +19,9 @@ int main() {
         printf("Det er da beregnet noe under 10%% kap\n");
     }
 
-    printf("\nAnbefaler %d pakker.\n", antallPakerSomTrengs);
+    printf("\nAnbefaler %2.f pakker.\n", antallPakerSomTrengs);
     printf("\nTOTAL PRIS: %.2f kr.\n", totalPris);
 
-//
-//    float kap = 0.10;
-//    int prisPrPakke = 734;
-//    float AntallKvadratMeterPrGulv;
-//    printf("Skriv inn antall kvadratmeter: ");
-//    scanf("%f", &AntallKvadratMeterPrGulv);
-//
-//
-//    // Beregner pris per pakke
-//    float TiprosentOkning = prisPrPakke * kap;
-//
-//    int antallPakerSomTrengs = floor(AntallKvadratMeterPrGulv / 2952);
-//
-//    float totalPris = (prisPrPakke * antallPakerSomTrengs) + TiprosentOkning;
-//
-//    printf("Det er beregnet under 10% kapp");
-//    printf("\nAnbefaler %d pakka", antallPakerSomTrengs);
-//    printf("\nTOTAL PRIS: %.2f", totalPris);
 
     return 0;
 }

@@ -1,3 +1,4 @@
+Byamungu        500
 Jako/Jacob      424
 Lucas/Lukas     404
 Emil            397

@@ -30,7 +30,7 @@ int main() {
 
     printf("\nPrist for voksne: %d", voknesPris);
     printf("\nPrist for barn:   %d", barnePris);
-    printf("\nRabot:            %.2f", rabat);
+    printf("\nRabat:            %.2f", rabat);
     printf("\nTATAL PRIS:       %.2f", totalPris - rabat);
 
     // Tilføedig tall mellom 0 og 99
